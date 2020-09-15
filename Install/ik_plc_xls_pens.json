@@ -1,0 +1,14 @@
+{"name":"ik_plc_xls_pens", "importStartRowIndex":3,
+    "tableColumns":
+    {
+	"1":{"columnType":"String","name":"cfio", "notNull":"true"},
+	"2":{"columnType":"String","name":"cinn", "notNull":"true"},
+	"3":{"columnType":"String","name":"caccc", "notNull":"true"},
+	"4":{"columnType":"Double","name":"msumm", "notNull":"true"},
+	"5":{"columnType":"Long"  ,"name":"ipaydate", "notNull":"true"},
+	"6":{"columnType":"Long"  ,"name":"iotd", "notNull":"true"},
+	"7":{"columnType":"String","name":"ls", "notNull":"true"},
+	"8":{"columnType":"String","name":"passport", "notNull":"true"}
+    }
+}
+ 

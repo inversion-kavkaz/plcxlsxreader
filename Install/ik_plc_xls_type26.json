@@ -1,0 +1,12 @@
+{"name":"ik_plc_xls_type26", "importStartRowIndex":3,
+    "tableColumns":
+    {
+	"1":{"columnType":"String","name":"cfio", "notNull":"true"},
+	"2":{"columnType":"String","name":"cinn", "notNull":"true"},
+	"3":{"columnType":"String","name":"caccc", "notNull":"true"},
+	"4":{"columnType":"Double","name":"msumm", "notNull":"true"},
+	"5":{"columnType":"Long"  ,"name":"ipaydate", "notNull":"true"},
+	"6":{"columnType":"String","name":"caccd", "notNull":"true"}
+    }
+}
+ 

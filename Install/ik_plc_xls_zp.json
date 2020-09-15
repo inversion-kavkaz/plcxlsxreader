@@ -1,0 +1,10 @@
+{"name":"ik_plc_xls_zp", "importStartRowIndex":2,
+    "tableColumns":
+    {
+	"2":{"columnType":"String","name":"cfio", "notNull":"true"},
+	"3":{"columnType":"String","name":"cinn", "notNull":"true"},
+	"4":{"columnType":"String","name":"caccc", "notNull":"true"},
+	"5":{"columnType":"Double","name":"msumm", "notNull":"true"}
+    }
+}
+ 
