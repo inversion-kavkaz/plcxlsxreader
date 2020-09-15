@@ -7,8 +7,8 @@ import java.util.Map;
 @XmlRootElement(name = "xlsxTable")
 public class XLSXTable {
     String name;
-    Integer importStartRowIndex;
-    Map<Integer, TableColumn> tableColumns;
+    private Integer importStartRowIndex;
+    private Map<Integer, TableColumn> tableColumns;
 
     public Map<Integer, TableColumn> getTableColumns() {
         return tableColumns;

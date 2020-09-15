@@ -2,12 +2,11 @@ package ru.inversionkavkaz.plcxlsxreader.entity;
 
 import java.io.Serializable;
 
-;
 public class TableColumn implements Serializable {
-    ColumnType columnType;
+    private ColumnType columnType;
     String name;
-    String format;
-    Boolean notNull;
+    private String format;
+    private Boolean notNull;
 
     public String getName() {
         return name;
