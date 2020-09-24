@@ -32,7 +32,7 @@ public class HibernateUtils {
         System.setProperty("oracle.net.tns_admin", tnsAdmin);
     }
 
-    public static SessionFactory getSessionFactory(String user, String password, String sid) {
+    private static SessionFactory getSessionFactory(String user, String password, String sid) {
         if (sessionFactory == null) {
             try {
 

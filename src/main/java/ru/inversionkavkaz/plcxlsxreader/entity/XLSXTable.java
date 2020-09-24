@@ -33,6 +33,9 @@ public class XLSXTable {
         }
         sqlStr = new StringBuilder(sqlStr.substring(0, sqlStr.length() - 1) + ") values(?,?,");
         for(TableColumn tc : tableColumns.values()){
+            if((tc.getColumnType().equals(ColumnType.Date)||tc.getColumnType().equals(ColumnType.TimeStamp))&&tc.getFormat()!=null&&!tc.getFormat().isEmpty()){
+                sqlStr.append("to_").append(tc.getColumnType()).append("(?,'").append(tc.getFormat()).append("'),");
+            }else
             sqlStr.append("?,");
         }
         return sqlStr.substring(0, sqlStr.length()-1)+")";

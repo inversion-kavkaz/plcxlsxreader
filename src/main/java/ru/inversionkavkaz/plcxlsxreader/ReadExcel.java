@@ -111,7 +111,7 @@ public class ReadExcel {
                     case Double:
                         insertQuery.setParameter(oraParamIndex, r.getCell(tc.getKey() - 1).getNumericCellValue());
                         break;
-                    case Date:
+                    case Date: case TimeStamp:
                         //пока так
                         insertQuery.setParameter(oraParamIndex, r.getCell(tc.getKey() - 1).getStringCellValue());
                         break;
