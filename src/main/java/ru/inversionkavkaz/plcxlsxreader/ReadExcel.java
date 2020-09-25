@@ -88,7 +88,7 @@ public class ReadExcel {
 
         for (Row r : workbook.getSheetAt(0)) {
             //начинаем импорт с указанной строки
-            if (rowInd++ < xlsxTable.getImportStartRowIndex()) continue;
+            if (rowInd++ < xlsxTable.getImportStartRowIndex()-1) continue;
 
             int oraParamIndex = 2;
             for (Map.Entry<Integer, TableColumn> tc : xlsxTable.getTableColumns().entrySet()) {
